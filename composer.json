@@ -37,6 +37,13 @@
             "src/helpers.php"
         ]
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ukadev\\Blogfolio\\BlogfolioServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
