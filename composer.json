@@ -25,7 +25,6 @@
     "autoload": {
         "classmap": [
             "src/Migrations",
-            "src/Helpers",
             "src/Models",
             "src/Controllers",
             "src/Views",
@@ -35,7 +34,7 @@
             "Ukadev\\Blogfolio\\": "src/"
         },
         "files": [
-            "src/Helpers.php"
+            "helpers.php"
         ]
     },
     "minimum-stability": "dev",
