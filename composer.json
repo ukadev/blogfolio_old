@@ -1,0 +1,43 @@
+{
+    "name": "ukadev/blogfolio",
+    "description": "Blog and portfolio System using Laravel 5.8",
+    "keywords": ["laravel","blogfolio","theme","admin","cms","panel","administration","blog","portfolio"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diego Pazos",
+            "email": "mail@ukadev.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "anlutro/l4-settings": "0.8.1",
+        "creativeorange/gravatar": "1.0.11",
+        "watson/active": "3.1.0",
+        "laravelcollective/html":"5.8.0",
+        "laracasts/flash": "3.0.2"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.8.0",
+        "mockery/mockery": "1.2.2",
+        "barryvdh/laravel-debugbar": "^3.2.3"
+    },
+    "autoload": {
+        "classmap": [
+            "src/Migrations",
+            "src/Helpers",
+            "src/Models",
+            "src/Controllers",
+            "src/Views",
+            "src/Seeds"
+        ],
+        "psr-4": {
+            "Ukadev\\Blogfolio\\": "src/"
+        },
+        "files": [
+            "src/Helpers.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
