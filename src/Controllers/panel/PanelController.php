@@ -85,14 +85,16 @@ class PanelController extends Controller
     public function parseNews($news)
     {
         $finalNews = [];
-        foreach ($news as $key => $singleNews) {
-            $date = $singleNews->commit->committer->date;
-            $tmpNews[$key]['icon'] = '';
-            $tmpNews[$key]['content'] = $singleNews->commit->message;
-            $tmpNews[$key]['month'] = date('m', strtotime($date));
-            $tmpNews[$key]['day'] = date('d', strtotime($date));
-            $finalNews[$key] = (object)$tmpNews[$key];
 
+        foreach ($news as $key => $singleNews) {
+            if (gettype($singleNews) !== 'string'){
+                $date = $singleNews->commit->committer->date;
+                $tmpNews[$key]['icon'] = '';
+                $tmpNews[$key]['content'] = $singleNews->commit->message;
+                $tmpNews[$key]['month'] = date('m', strtotime($date));
+                $tmpNews[$key]['day'] = date('d', strtotime($date));
+                $finalNews[$key] = (object)$tmpNews[$key];
+            }
         }
         return $finalNews;
     }
