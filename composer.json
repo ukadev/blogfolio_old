@@ -11,16 +11,16 @@
     ],
     "require": {
         "php": ">=7.0",
-        "anlutro/l4-settings": "0.8.1",
-        "creativeorange/gravatar": "1.0.11",
-        "watson/active": "3.1.0",
-        "laravelcollective/html":"5.8.0",
-        "laracasts/flash": "3.0.2"
+        "anlutro/l4-settings": "0.9",
+        "creativeorange/gravatar": "~1.0",
+        "watson/active": "4.0.0",
+        "laravelcollective/html":"~6.0",
+        "laracasts/flash": "~3.0"
     },
     "require-dev": {
-        "fzaninotto/faker": "~1.8.0",
-        "mockery/mockery": "1.2.2",
-        "barryvdh/laravel-debugbar": "^3.2.3"
+        "fzaninotto/faker": "~1.8",
+        "mockery/mockery": "~1.2",
+        "barryvdh/laravel-debugbar": "~3.2"
     },
     "autoload": {
         "classmap": [
