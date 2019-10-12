@@ -14,13 +14,13 @@
         "anlutro/l4-settings": "0.9",
         "creativeorange/gravatar": "~1.0",
         "watson/active": "4.0.0",
-        "laravelcollective/html":"~6.0",
-        "laracasts/flash": "~3.0"
+        "laravelcollective/html":"6.0.3",
+        "laracasts/flash": "3.0.3"
     },
     "require-dev": {
-        "fzaninotto/faker": "~1.8",
-        "mockery/mockery": "~1.2",
-        "barryvdh/laravel-debugbar": "~3.2"
+        "fzaninotto/faker": "1.8.0",
+        "mockery/mockery": "1.2.4",
+        "barryvdh/laravel-debugbar": "3.2.8"
     },
     "autoload": {
         "classmap": [
