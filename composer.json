@@ -1,6 +1,6 @@
 {
     "name": "ukadev/blogfolio",
-    "description": "Blog and portfolio System using Laravel 5.8",
+    "description": "Blog and portfolio System using Laravel 6",
     "keywords": ["laravel","blogfolio","theme","admin","cms","panel","administration","blog","portfolio"],
     "license": "MIT",
     "authors": [
